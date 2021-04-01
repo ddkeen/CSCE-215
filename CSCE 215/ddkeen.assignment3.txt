@@ -1,0 +1,27 @@
+# David Keen
+# CSCE215.851
+# Assignment 3
+#############
+
+
+
+# Question 1:
+cat polls.csv | cut -d, -f14
+
+# Question 2:
+cat polls.csv | cut -d, -f14 | sort | uniq | wc -l
+
+# Question 3:
+cat /class/csce215/Words | tr "[A-Z]" "[a-z]"
+
+# Question 4:
+cat /class/csce215/Words | tr "[A-Z]" "[a-z]" | sed '0~2d'
+
+# Question 5:
+grep -x [a-z][a-z][a-z][a-z][a-z][a-z] words | wc -l
+
+# Question 6:
+grep -x [b,d][a-z][a-z][a-z][a-z] words | wc -l
+
+# Question 7:
+grep -i [^aeiou][^aeiou][^aeiou][^aeiou][^aeiou][^aeiou] words 

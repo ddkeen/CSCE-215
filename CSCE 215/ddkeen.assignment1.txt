@@ -1,0 +1,50 @@
+# David Keen
+# CSCE215.851
+# Assignment 1
+#############
+ 
+ 
+/acct/ddkeen/215
+├── assignment1
+│   ├── ddkeen.info.txt
+│   ├── ddkeen.part3.txt
+│   └── ddkeen.tree.txt
+├── assignment2
+├── assignment3
+├── assignment4
+├── finalProject
+└── header.txt
+
+5 directories, 4 files
+1.) David Keen
+2.) ddkeen@email.sc.edu
+3.) Phone: (708) 829-3992
+4.) Freshman Computer Science Major, Enrolled
+5.) Java: 2 years, Python: 1 year.
+6.) No UNIX/LINUX experience
+7.) vim
+8.) ddkeen.info.txt
+Script started on Wed 25 Mar 2020 03:30:23 PM EDT
+]0;ddkeen@cocsce-l1d43-14 ~/215/assignment1[01;32mddkeen@cocsce-l1d43-14[00m [01;34m~/215/assignment1 $[00m whoami
+ddkeen
+]0;ddkeen@cocsce-l1d43-14 ~/215/assignment1[01;32mddkeen@cocsce-l1d43-14[00m [01;34m~/215/assignment1 $[00m printf "$USER\n"
+ddkeen
+]0;ddkeen@cocsce-l1d43-14 ~/215/assignment1[01;32mddkeen@cocsce-l1d43-14[00m [01;34m~/215/assignment1 $[00m echo $USER
+ddkeen
+]0;ddkeen@cocsce-l1d43-14 ~/215/assignment1[01;32mddkeen@cocsce-l1d43-14[00m [01;34m~/215/assignment1 $[00m whoamu[Ki
+ddkeen
+]0;ddkeen@cocsce-l1d43-14 ~/215/assignment1[01;32mddkeen@cocsce-l1d43-14[00m [01;34m~/215/assignment1 $[00m echo $HOSTNAME
+cocsce-l1d43-14
+]0;ddkeen@cocsce-l1d43-14 ~/215/assignment1[01;32mddkeen@cocsce-l1d43-14[00m [01;34m~/215/assignment1 $[00m echo $(date + "%m-%d-%Y")
+date: extra operand ‘%m-%d-%Y’
+Try 'date --help' for more information.
+
+]0;ddkeen@cocsce-l1d43-14 ~/215/assignment1[01;32mddkeen@cocsce-l1d43-14[00m [01;34m~/215/assignment1 $[00m echo $(date +"%m-%d-%Y")
+03-25-2020
+]0;ddkeen@cocsce-l1d43-14 ~/215/assignment1[01;32mddkeen@cocsce-l1d43-14[00m [01;34m~/215/assignment1 $[00m echo $(date +"%r")
+03:32:32 PM
+]0;ddkeen@cocsce-l1d43-14 ~/215/assignment1[01;32mddkeen@cocsce-l1d43-14[00m [01;34m~/215/assignment1 $[00m tree ~/215 > ~/215/assignment1/`whoam i`.tree.txt
+]0;ddkeen@cocsce-l1d43-14 ~/215/assignment1[01;32mddkeen@cocsce-l1d43-14[00m [01;34m~/215/assignment1 $[00m exit
+exit
+
+Script done on Wed 25 Mar 2020 03:33:10 PM EDT

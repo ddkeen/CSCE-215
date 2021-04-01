@@ -1,0 +1,13 @@
+# David Keen
+# CSCE215.851
+# Assignment 2
+#############
+
+# Question 1
+find . -type f -name "*csv" && find Jul -type f -name "*csv" && find -name Aug0[1-9].csv && find -name Jun0[1-9].csv -o -name Jul0[1-9].csv && find -name Jan*.csv -o -name Feb*.csv -o -name Mar*.csv -o -name Apr*.csv -o -name May*.csv -o -name Jun*.csv -o -name Jul*.csv -o -name Aug0[1-9]*.csv
+
+# Question 2
+echo 'head -52 $1 | tail -51' > extractdata 
+chmod +x extractdata 
+find . -type f -name "*.csv" | xargs ~/215/assignment2 ./extractdata >> polls.csv
+
